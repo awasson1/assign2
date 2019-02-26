@@ -2,7 +2,7 @@
 package cse360assign2;
 
 /**
- * This program is used as an initial state to commit to git
+ * This program is used as second state to commit to git
  * 
  * @author Anthony Wasson
  *
@@ -17,23 +17,23 @@ public class Calculator {
 	}
 	
 	public int getTotal () {
-		return 0;
+		return total;
 	}
 	
 	public void add (int value) {
-		
+		total = total + value;
 	}
 	
 	public void subtract (int value) {
-		
+		total = total - value;
 	}
 	
 	public void multiply (int value) {
-		
+		total = total * value;
 	}
 	
 	public void divide (int value) {
-		
+		total = total / value;
 	}
 	
 	public String getHistory () {
